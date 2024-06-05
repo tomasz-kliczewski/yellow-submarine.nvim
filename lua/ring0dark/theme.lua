@@ -15,13 +15,13 @@ theme.set_highlights = function()
 	hl(0, "SpellLocal", { fg = c.green, bg = "NONE", underline = true })
 	hl(0, "SpellRare", { fg = c.purple, bg = "NONE", underline = true })
 	hl(0, "NormalNC", { fg = c.fg, bg = c.bg })
-	hl(0, "Pmenu", { fg = c.red, bg = c.bg, sp = "NONE", blend = 50 })
+	hl(0, "Pmenu", { fg = c.red, bg = c.bg_darker, sp = "NONE" })
 	hl(0, "PmenuSel", { fg = "NONE", bg = c.blue })
 	hl(0, "WildMenu", { fg = c.fg, bg = c.blue })
 	hl(0, "CursorLineNr", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "Comment", { fg = c.brown, bg = "NONE", italic = true })
 	hl(0, "Identifier", { fg = c.red, bg = "NONE", italic = true })
+	hl(0, "", { fg = c.red, bg = "NONE", italic = true })
 end
 
 return theme
-
