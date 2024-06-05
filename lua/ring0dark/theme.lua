@@ -16,6 +16,8 @@ theme.set_highlights = function()
 	hl(0, "Identifier", { fg = c.fg, bg = "NONE", italic = true })
 	hl(0, "Statement", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "String", { fg = c.green, bg = "NONE", italic = true })
+	hl(0, "TelescopeSelection", { fg = c.fg, bg = c.gray, italic = true })
+	hl(0, "CursorLine", { fg = c.fg, bg = c.gray, italic = true })
 end
 
 return theme
