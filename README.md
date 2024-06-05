@@ -1,5 +1,5 @@
 # About
-This neovim theme is heavily inspired by (gruber-darker)[https://github.com/rexim/gruber-darker-theme] theme
+This neovim theme is heavily inspired by [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme
 but I wanted to only highlight keywords with the same color pallete.
 
 # Sceenshots
