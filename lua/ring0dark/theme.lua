@@ -20,6 +20,11 @@ theme.set_highlights = function()
 	hl(0, "CursorLine", { fg = "NONE", bg = c.gray, italic = true })
 	hl(0, "Function", { fg = c.fg, bg = "NONE", italic = true })
 	hl(0, "variable", { fg = c.fg, bg = "NONE", italic = true })
+
+	-- diagnostics
+	hl(0, "DiagnosticError", { fg = c.red, bg = "NONE", bold = true })
+	hl(0, "DiagnosticWarn", { fg = c.yellow, bg = "NONE", bold = true })
+	hl(0, "DiagnosticHint", { fg = c.cyan, bg = "NONE", bold = true })
 end
 
 return theme
