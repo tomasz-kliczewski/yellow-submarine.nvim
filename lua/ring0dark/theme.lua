@@ -1,5 +1,5 @@
 
-local c = require('ring0-dark.palette')
+local c = require('ring0dark.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}

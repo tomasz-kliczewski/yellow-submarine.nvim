@@ -1,5 +1,5 @@
 [information]
- name = "ring0-dark"
+ name = "ring0dark"
  background = "dark"
  author = 'ring0-rootkit'
 
