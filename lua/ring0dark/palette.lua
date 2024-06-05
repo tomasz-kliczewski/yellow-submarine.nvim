@@ -6,9 +6,12 @@ local colors = {
   green = "#73d936",
   red = "#f43841",
   yellow = "#ffdd33",
-  purple = "#9e95c7",
-  blue = "#0000ff",
   brown = "#cc8c3c",
+  blue = "#519fdf",
+  cyan = "#46a6b2",
+  orange = "#c18a56",
+  purple = "#b668cd",
+  magenta = "#D16D9E",
 }
 
 return colors
