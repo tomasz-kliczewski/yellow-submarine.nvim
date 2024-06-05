@@ -3,8 +3,8 @@ local colors = {
 	bg = "#181818",
 	bg_darker = "#282828",
 	white = "#ffffff",
-	gray = "#545862",
-	green = "#101010",
+	gray = "#101010",
+	green = "#73d936",
 	red = "#f43841",
 	yellow = "#ffdd33",
 	brown = "#cc8c3c",
@@ -16,4 +16,3 @@ local colors = {
 }
 
 return colors
-
