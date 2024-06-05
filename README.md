@@ -5,10 +5,9 @@ but I wanted to only highlight keywords with the same color pallete.
 This theme highlights only **keywords**, **string literals** and **comments**
 
 # Sceenshots
-![rust](https://github.com/ring0-rootkit/ring0-dark.nvim/assets/111735837/6aae3f5f-c579-4cbd-bfbe-27f00051ecad)
-![go](https://github.com/ring0-rootkit/ring0-dark.nvim/assets/111735837/852a6627-834a-430a-8660-24447f9acc51)
-![lua](https://github.com/ring0-rootkit/ring0-dark.nvim/assets/111735837/9ae1fdc2-d715-447c-b2be-a5b5c2a4dc15)
-
+![image](https://github.com/ring0-rootkit/ring0-dark.nvim/assets/111735837/5b461fc7-6299-4273-9c4c-49cca824f965)
+![image](https://github.com/ring0-rootkit/ring0-dark.nvim/assets/111735837/2c286af8-ccc1-412b-9f51-c46167f09191)
+![image](https://github.com/ring0-rootkit/ring0-dark.nvim/assets/111735837/30bde356-a19c-40dd-af53-2b09b42dec05)
 
 # Installation
 Lazy:
