@@ -1,16 +1,13 @@
 local colors = {
-  fg = "#abb2bf",
-  bg = "#1e222a",
-  white = "#abb2bf",
+  fg = "#d4d4d4",
+  bg = "#181818",
+  white = "#ffffff",
   gray = "#545862",
-  blue = "#519fdf",
-  green = "#88b369",
-  cyan = "#46a6b2",
-  red = "#d05c65",
-  orange = "#c18a56",
-  yellow = "#d5b06b",
-  purple = "#b668cd",
-  magenta = "#D16D9E",
+  green = "#73d936",
+  red = "#f43841",
+  yellow = "#ffdd33",
+  purple = "#9e95c7",
+  blue = "#0000ff",
 }
 
 return colors
