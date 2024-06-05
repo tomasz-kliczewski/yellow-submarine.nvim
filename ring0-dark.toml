@@ -14,6 +14,7 @@
  yellow = '#ffdd33'
  purple = '#9e95c7'
  blue = '#0000ff'
+ brown = '#cc8c3c'
 
 [highlights]
  Normal = 'fg bg'
@@ -29,5 +30,12 @@
  Pmenu = 'red bg - - 50'
  PmenuSel = '- blue'
  WildMenu = 'fg blue'
- CursorLineNr = 'gray - b'
- Comment = 'gray - i'
+ CursorLineNr = 'yellow - b'
+ Comment = 'brown - i'
+
+[Treesitter]
+ TSComment = 'link:Comment'
+ TSAnnotation = 'blue'
+ TSAttribute = 'yellow'
+ TSConstructor = 'yellow'
+ TSType = 'yellow'

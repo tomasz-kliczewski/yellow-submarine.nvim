@@ -8,6 +8,7 @@ local colors = {
   yellow = "#ffdd33",
   purple = "#9e95c7",
   blue = "#0000ff",
+  brown = "#cc8c3c",
 }
 
 return colors

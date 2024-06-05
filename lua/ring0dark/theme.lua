@@ -20,8 +20,15 @@ theme.set_highlights = function()
   hl(0, "Pmenu", { fg = c.red, bg = c.bg, sp = 'NONE', blend=50,  })
   hl(0, "PmenuSel", { fg = 'NONE', bg = c.blue })
   hl(0, "WildMenu", { fg = c.fg, bg = c.blue })
-  hl(0, "CursorLineNr", { fg = c.gray, bg = 'NONE', bold=true, })
-  hl(0, "Comment", { fg = c.gray, bg = 'NONE', italic=true, })
+  hl(0, "CursorLineNr", { fg = c.yellow, bg = 'NONE', bold=true, })
+  hl(0, "Comment", { fg = c.brown, bg = 'NONE', italic=true, })
+
+  -- Treesitter
+  hl(0, "TSComment", { link = 'Comment' })
+  hl(0, "TSAnnotation", { fg = c.blue, bg = 'NONE' })
+  hl(0, "TSAttribute", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "TSConstructor", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "TSType", { fg = c.yellow, bg = 'NONE' })
 end
 
 return theme
