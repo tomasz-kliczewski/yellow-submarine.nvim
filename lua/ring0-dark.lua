@@ -1,5 +1,3 @@
--- ~/.config/nvim/lua/my_highlighter/init.lua
-
 local M = {}
 
 -- Define default colors
@@ -72,6 +70,6 @@ M.highlight = function()
 end
 
 -- Autocommand to highlight on buffer read
-vim.api.nvim_command('autocmd BufReadPost,BufNewFile * lua require("my_highlighter").highlight()')
+vim.api.nvim_command('autocmd BufReadPost,BufNewFile * lua require("ring0-dark").highlight()')
 
 return M
