@@ -1,0 +1,36 @@
+[information]
+ name = "ring0-dark"
+ background = "dark"
+ author = 'ring0-rootkit'
+
+[palette]
+ fg = '#abb2bf'
+ bg = '#1e222a'
+
+ white = '#abb2bf'
+ gray = '#545862'
+ blue = '#519fdf'
+ green = '#88b369'
+ cyan = '#46a6b2'
+ red = '#d05c65'
+ orange = '#c18a56'
+ yellow = '#d5b06b'
+ purple = '#b668cd'
+ magenta = '#D16D9E'
+
+[highlights]
+ Normal = 'fg bg'
+ SignColumn = '- bg'
+ MsgArea = 'fg bg'
+ ModeMsg = 'fg bg'
+ MsgSeparator = 'fg bg'
+ SpellBad = 'red - u'
+ SpellCap = 'yellow - u'
+ SpellLocal = 'green - u'
+ SpellRare = 'purple - u'
+ NormalNC = 'fg bg'
+ Pmenu = 'red bg - - 50'
+ PmenuSel = '- blue'
+ WildMenu = 'fg blue'
+ CursorLineNr = 'gray - b'
+ Comment = 'gray - i'
