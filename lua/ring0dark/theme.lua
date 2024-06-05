@@ -18,7 +18,8 @@ theme.set_highlights = function()
 	hl(0, "String", { fg = c.green, bg = "NONE", italic = true })
 	hl(0, "TelescopeSelection", { fg = c.fg, bg = c.gray, italic = true })
 	hl(0, "CursorLine", { fg = "NONE", bg = c.gray, italic = true })
-	hl(0, "Function", { fg = c.fg, bg = c.bg, italic = true })
+	hl(0, "Function", { fg = c.fg, bg = "NONE", italic = true })
+	hl(0, "variable", { fg = c.fg, bg = "NONE", italic = true })
 end
 
 return theme
