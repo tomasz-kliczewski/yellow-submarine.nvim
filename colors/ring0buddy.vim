@@ -1,6 +1,6 @@
 local colorbuddy = require("colorbuddy")
 
-colorbuddy.colorscheme("ring0-dark")
+colorbuddy.colorscheme("ring0buddy")
 
 local Color = colorbuddy.Color
 local Group = colorbuddy.Group
