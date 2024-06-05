@@ -7,12 +7,9 @@ theme.set_highlights = function()
 	-- highlights
 	hl(0, "Normal", { fg = c.fg, bg = c.bg })
 	hl(0, "NormalFloat", { fg = c.fg, bg = c.bg_darker })
-	hl(0, "NormalNC", { fg = c.fg, bg = c.bg })
-	hl(0, "NormalSB", { fg = c.fg, bg = c.bg_darker })
+	hl(0, "NormalNC", { fg = c.fg, bg = c.bg }) -- Normal non current
+	hl(0, "NormalSB", { fg = c.fg, bg = c.bg_darker }) -- Normal text in side bar
 	hl(0, "SignColumn", { fg = "NONE", bg = c.bg })
-	hl(0, "MsgArea", { fg = c.fg, bg = c.bg })
-	hl(0, "ModeMsg", { fg = c.fg, bg = c.bg })
-	hl(0, "MsgSeparator", { fg = c.fg, bg = c.bg })
 	hl(0, "CursorLineNr", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "Statement", { fg = c.yellow, bg = "NONE", bold = true })
 	hl(0, "TelescopeSelection", { fg = c.fg, bg = c.gray, italic = true })
