@@ -26,6 +26,7 @@ theme.set_highlights = function()
 	hl(0, "String", { fg = c.green, bg = "NONE", italic = true })
 	hl(0, "Identifier", { fg = c.fg, bg = "NONE", italic = true })
 	hl(0, "Title", { fg = c.yellow, bg = "NONE", bold = true })
+	hl(0, "Type", { fg = c.fg, bg = "NONE", bold = true })
 
 	-- diagnostics
 	hl(0, "DiagnosticError", { fg = c.red, bg = "NONE", bold = true })
