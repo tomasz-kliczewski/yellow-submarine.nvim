@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('ring0dark.theme')
+local theme = require('yellowsub.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'ring0dark'
+  vim.g.colors_name = 'yellowsub'
 
   theme.set_highlights()
 end
